@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38BA24258D3DEAB99A83ADB0 /* libPods-WIFICheck-Dmeo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F704CA2D1F05562E113451 /* libPods-WIFICheck-Dmeo.a */; };
+		64B9144C1E8F376500B459DB /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B9144B1E8F376500B459DB /* HomeTableViewCell.m */; };
+		64B914651E8F3B8400B459DB /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64B9144F1E8F3B8400B459DB /* data.plist */; };
+		64B914661E8F3B8400B459DB /* MacFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B914531E8F3B8400B459DB /* MacFinder.m */; };
+		64B914671E8F3B8400B459DB /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B9145A1E8F3B8400B459DB /* SimplePing.m */; };
+		64B914681E8F3B8400B459DB /* LANProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B9145C1E8F3B8400B459DB /* LANProperties.m */; };
+		64B914691E8F3B8400B459DB /* MACOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B9145E1E8F3B8400B459DB /* MACOperation.m */; };
+		64B9146A1E8F3B8400B459DB /* MMLANScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B914601E8F3B8400B459DB /* MMLANScanner.m */; };
+		64B9146B1E8F3B8400B459DB /* NetworkCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B914621E8F3B8400B459DB /* NetworkCalculator.m */; };
+		64B9146C1E8F3B8400B459DB /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B914641E8F3B8400B459DB /* PingOperation.m */; };
+		64B914711E8F3B9400B459DB /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B9146E1E8F3B9400B459DB /* Device.m */; };
+		64B914721E8F3B9400B459DB /* OUIParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B914701E8F3B9400B459DB /* OUIParser.m */; };
+		64B914751E8F3BB100B459DB /* MainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B914741E8F3BB100B459DB /* MainPresenter.m */; };
+		64B9147E1E8F5A4600B459DB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B9147D1E8F5A4600B459DB /* libc++.tbd */; };
+		64B914801E8F5A4E00B459DB /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B9147F1E8F5A4E00B459DB /* libc.tbd */; };
+		64B914821E8F5BD200B459DB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B914811E8F5BD200B459DB /* SystemConfiguration.framework */; };
+		64B914841E8F5BEC00B459DB /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B914831E8F5BEC00B459DB /* libresolv.tbd */; };
+		64B914891E8F5BFB00B459DB /* QBDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B914861E8F5BFB00B459DB /* QBDeviceInfo.m */; };
+		64B9148A1E8F5BFB00B459DB /* QBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B914881E8F5BFB00B459DB /* QBReachability.m */; };
+		64B914911E8F7F6C00B459DB /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B9148C1E8F7F6C00B459DB /* Arrow.png */; };
+		64B914921E8F7F6C00B459DB /* YUFoldingSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B9148E1E8F7F6C00B459DB /* YUFoldingSectionHeader.m */; };
+		64B914931E8F7F6C00B459DB /* YUFoldingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B914901E8F7F6C00B459DB /* YUFoldingTableView.m */; };
+		64D209CA1E8DFC550088B1E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D209C91E8DFC550088B1E6 /* main.m */; };
+		64D209CD1E8DFC550088B1E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D209CC1E8DFC550088B1E6 /* AppDelegate.m */; };
+		64D209D31E8DFC550088B1E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D209D11E8DFC550088B1E6 /* Main.storyboard */; };
+		64D209D51E8DFC550088B1E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D209D41E8DFC550088B1E6 /* Assets.xcassets */; };
+		64D209D81E8DFC550088B1E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D209D61E8DFC550088B1E6 /* LaunchScreen.storyboard */; };
+		64D209E31E8DFC560088B1E6 /* WIFICheck_DmeoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D209E21E8DFC560088B1E6 /* WIFICheck_DmeoTests.m */; };
+		64D209EE1E8DFC560088B1E6 /* WIFICheck_DmeoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D209ED1E8DFC560088B1E6 /* WIFICheck_DmeoUITests.m */; };
+		64D20A011E8DFD420088B1E6 /* WIFIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D20A001E8DFD420088B1E6 /* WIFIBaseViewController.m */; };
+		64D20A041E8DFD670088B1E6 /* WIFITabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D20A031E8DFD670088B1E6 /* WIFITabBarVC.m */; };
+		64D20A071E8DFD850088B1E6 /* WIFINavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D20A061E8DFD850088B1E6 /* WIFINavigationVC.m */; };
+		64D20A0A1E8DFDA30088B1E6 /* WIFIHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D20A091E8DFDA30088B1E6 /* WIFIHomeVC.m */; };
+		64D20A111E8DFE850088B1E6 /* WIFILocalMsgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D20A101E8DFE850088B1E6 /* WIFILocalMsgVC.m */; };
+		64D20A141E8DFF220088B1E6 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D20A131E8DFF220088B1E6 /* UIImage+Extension.m */; };
+		64E2BFB21E94AB3A00922407 /* WIFILocalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E2BFB11E94AB3A00922407 /* WIFILocalVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64D209DF1E8DFC560088B1E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64D209BD1E8DFC550088B1E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D209C41E8DFC550088B1E6;
+			remoteInfo = "WIFICheck-Dmeo";
+		};
+		64D209EA1E8DFC560088B1E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64D209BD1E8DFC550088B1E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D209C41E8DFC550088B1E6;
+			remoteInfo = "WIFICheck-Dmeo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F704CA2D1F05562E113451 /* libPods-WIFICheck-Dmeo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WIFICheck-Dmeo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C9A67761EDCE7F63A55385 /* Pods-WIFICheck-Dmeo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WIFICheck-Dmeo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WIFICheck-Dmeo/Pods-WIFICheck-Dmeo.debug.xcconfig"; sourceTree = "<group>"; };
+		64B9144A1E8F376500B459DB /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		64B9144B1E8F376500B459DB /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		64B9144D1E8F37DB00B459DB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		64B9144F1E8F3B8400B459DB /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		64B914521E8F3B8400B459DB /* MacFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacFinder.h; sourceTree = "<group>"; };
+		64B914531E8F3B8400B459DB /* MacFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacFinder.m; sourceTree = "<group>"; };
+		64B914551E8F3B8400B459DB /* if_arp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_arp.h; sourceTree = "<group>"; };
+		64B914561E8F3B8400B459DB /* if_ether.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_ether.h; sourceTree = "<group>"; };
+		64B914571E8F3B8400B459DB /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		64B914591E8F3B8400B459DB /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		64B9145A1E8F3B8400B459DB /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		64B9145B1E8F3B8400B459DB /* LANProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANProperties.h; sourceTree = "<group>"; };
+		64B9145C1E8F3B8400B459DB /* LANProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LANProperties.m; sourceTree = "<group>"; };
+		64B9145D1E8F3B8400B459DB /* MACOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACOperation.h; sourceTree = "<group>"; };
+		64B9145E1E8F3B8400B459DB /* MACOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACOperation.m; sourceTree = "<group>"; };
+		64B9145F1E8F3B8400B459DB /* MMLANScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLANScanner.h; sourceTree = "<group>"; };
+		64B914601E8F3B8400B459DB /* MMLANScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLANScanner.m; sourceTree = "<group>"; };
+		64B914611E8F3B8400B459DB /* NetworkCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkCalculator.h; sourceTree = "<group>"; };
+		64B914621E8F3B8400B459DB /* NetworkCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkCalculator.m; sourceTree = "<group>"; };
+		64B914631E8F3B8400B459DB /* PingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingOperation.h; sourceTree = "<group>"; };
+		64B914641E8F3B8400B459DB /* PingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingOperation.m; sourceTree = "<group>"; };
+		64B9146D1E8F3B9400B459DB /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		64B9146E1E8F3B9400B459DB /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		64B9146F1E8F3B9400B459DB /* OUIParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OUIParser.h; sourceTree = "<group>"; };
+		64B914701E8F3B9400B459DB /* OUIParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OUIParser.m; sourceTree = "<group>"; };
+		64B914731E8F3BB100B459DB /* MainPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPresenter.h; sourceTree = "<group>"; };
+		64B914741E8F3BB100B459DB /* MainPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPresenter.m; sourceTree = "<group>"; };
+		64B9147D1E8F5A4600B459DB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		64B9147F1E8F5A4E00B459DB /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		64B914811E8F5BD200B459DB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		64B914831E8F5BEC00B459DB /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		64B914851E8F5BFB00B459DB /* QBDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDeviceInfo.h; sourceTree = "<group>"; };
+		64B914861E8F5BFB00B459DB /* QBDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDeviceInfo.m; sourceTree = "<group>"; };
+		64B914871E8F5BFB00B459DB /* QBReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBReachability.h; sourceTree = "<group>"; };
+		64B914881E8F5BFB00B459DB /* QBReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBReachability.m; sourceTree = "<group>"; };
+		64B9148C1E8F7F6C00B459DB /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
+		64B9148D1E8F7F6C00B459DB /* YUFoldingSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUFoldingSectionHeader.h; sourceTree = "<group>"; };
+		64B9148E1E8F7F6C00B459DB /* YUFoldingSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUFoldingSectionHeader.m; sourceTree = "<group>"; };
+		64B9148F1E8F7F6C00B459DB /* YUFoldingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUFoldingTableView.h; sourceTree = "<group>"; };
+		64B914901E8F7F6C00B459DB /* YUFoldingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUFoldingTableView.m; sourceTree = "<group>"; };
+		64D209C51E8DFC550088B1E6 /* WIFICheck-Dmeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WIFICheck-Dmeo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D209C91E8DFC550088B1E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64D209CB1E8DFC550088B1E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64D209CC1E8DFC550088B1E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64D209D21E8DFC550088B1E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64D209D41E8DFC550088B1E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D209D71E8DFC550088B1E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64D209D91E8DFC550088B1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D209DE1E8DFC560088B1E6 /* WIFICheck-DmeoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WIFICheck-DmeoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D209E21E8DFC560088B1E6 /* WIFICheck_DmeoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WIFICheck_DmeoTests.m; sourceTree = "<group>"; };
+		64D209E41E8DFC560088B1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D209E91E8DFC560088B1E6 /* WIFICheck-DmeoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WIFICheck-DmeoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D209ED1E8DFC560088B1E6 /* WIFICheck_DmeoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WIFICheck_DmeoUITests.m; sourceTree = "<group>"; };
+		64D209EF1E8DFC560088B1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D209FF1E8DFD420088B1E6 /* WIFIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFIBaseViewController.h; sourceTree = "<group>"; };
+		64D20A001E8DFD420088B1E6 /* WIFIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIFIBaseViewController.m; sourceTree = "<group>"; };
+		64D20A021E8DFD670088B1E6 /* WIFITabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFITabBarVC.h; sourceTree = "<group>"; };
+		64D20A031E8DFD670088B1E6 /* WIFITabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIFITabBarVC.m; sourceTree = "<group>"; };
+		64D20A051E8DFD850088B1E6 /* WIFINavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFINavigationVC.h; sourceTree = "<group>"; };
+		64D20A061E8DFD850088B1E6 /* WIFINavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIFINavigationVC.m; sourceTree = "<group>"; };
+		64D20A081E8DFDA30088B1E6 /* WIFIHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFIHomeVC.h; sourceTree = "<group>"; };
+		64D20A091E8DFDA30088B1E6 /* WIFIHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIFIHomeVC.m; sourceTree = "<group>"; };
+		64D20A0F1E8DFE850088B1E6 /* WIFILocalMsgVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFILocalMsgVC.h; sourceTree = "<group>"; };
+		64D20A101E8DFE850088B1E6 /* WIFILocalMsgVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIFILocalMsgVC.m; sourceTree = "<group>"; };
+		64D20A121E8DFF220088B1E6 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		64D20A131E8DFF220088B1E6 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		64E2BFB01E94AB3A00922407 /* WIFILocalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFILocalVC.h; sourceTree = "<group>"; };
+		64E2BFB11E94AB3A00922407 /* WIFILocalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIFILocalVC.m; sourceTree = "<group>"; };
+		6EA1BE89840F7131DC1C29B0 /* Pods-WIFICheck-Dmeo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WIFICheck-Dmeo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WIFICheck-Dmeo/Pods-WIFICheck-Dmeo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D209C21E8DFC550088B1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B914841E8F5BEC00B459DB /* libresolv.tbd in Frameworks */,
+				64B914821E8F5BD200B459DB /* SystemConfiguration.framework in Frameworks */,
+				64B914801E8F5A4E00B459DB /* libc.tbd in Frameworks */,
+				64B9147E1E8F5A4600B459DB /* libc++.tbd in Frameworks */,
+				38BA24258D3DEAB99A83ADB0 /* libPods-WIFICheck-Dmeo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D209DB1E8DFC560088B1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D209E61E8DFC560088B1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64B9144E1E8F3B8400B459DB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				64B9144F1E8F3B8400B459DB /* data.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		64B914501E8F3B8400B459DB /* External Libs */ = {
+			isa = PBXGroup;
+			children = (
+				64B914511E8F3B8400B459DB /* MacFinder */,
+				64B914581E8F3B8400B459DB /* SimplePing */,
+			);
+			path = "External Libs";
+			sourceTree = "<group>";
+		};
+		64B914511E8F3B8400B459DB /* MacFinder */ = {
+			isa = PBXGroup;
+			children = (
+				64B914521E8F3B8400B459DB /* MacFinder.h */,
+				64B914531E8F3B8400B459DB /* MacFinder.m */,
+				64B914541E8F3B8400B459DB /* Network Headers */,
+			);
+			path = MacFinder;
+			sourceTree = "<group>";
+		};
+		64B914541E8F3B8400B459DB /* Network Headers */ = {
+			isa = PBXGroup;
+			children = (
+				64B914551E8F3B8400B459DB /* if_arp.h */,
+				64B914561E8F3B8400B459DB /* if_ether.h */,
+				64B914571E8F3B8400B459DB /* route.h */,
+			);
+			path = "Network Headers";
+			sourceTree = "<group>";
+		};
+		64B914581E8F3B8400B459DB /* SimplePing */ = {
+			isa = PBXGroup;
+			children = (
+				64B914591E8F3B8400B459DB /* SimplePing.h */,
+				64B9145A1E8F3B8400B459DB /* SimplePing.m */,
+			);
+			path = SimplePing;
+			sourceTree = "<group>";
+		};
+		64B9147C1E8F5A4600B459DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64B914831E8F5BEC00B459DB /* libresolv.tbd */,
+				64B914811E8F5BD200B459DB /* SystemConfiguration.framework */,
+				64B9147F1E8F5A4E00B459DB /* libc.tbd */,
+				64B9147D1E8F5A4600B459DB /* libc++.tbd */,
+				05F704CA2D1F05562E113451 /* libPods-WIFICheck-Dmeo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64B9148B1E8F7F6C00B459DB /* YUFoldingTableView */ = {
+			isa = PBXGroup;
+			children = (
+				64B9148C1E8F7F6C00B459DB /* Arrow.png */,
+				64B9148D1E8F7F6C00B459DB /* YUFoldingSectionHeader.h */,
+				64B9148E1E8F7F6C00B459DB /* YUFoldingSectionHeader.m */,
+				64B9148F1E8F7F6C00B459DB /* YUFoldingTableView.h */,
+				64B914901E8F7F6C00B459DB /* YUFoldingTableView.m */,
+			);
+			path = YUFoldingTableView;
+			sourceTree = "<group>";
+		};
+		64D209BC1E8DFC550088B1E6 = {
+			isa = PBXGroup;
+			children = (
+				64D209C71E8DFC550088B1E6 /* WIFICheck-Dmeo */,
+				64D209E11E8DFC560088B1E6 /* WIFICheck-DmeoTests */,
+				64D209EC1E8DFC560088B1E6 /* WIFICheck-DmeoUITests */,
+				64D209C61E8DFC550088B1E6 /* Products */,
+				64B9147C1E8F5A4600B459DB /* Frameworks */,
+				7F77669B8502DFA21830FB46 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		64D209C61E8DFC550088B1E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D209C51E8DFC550088B1E6 /* WIFICheck-Dmeo.app */,
+				64D209DE1E8DFC560088B1E6 /* WIFICheck-DmeoTests.xctest */,
+				64D209E91E8DFC560088B1E6 /* WIFICheck-DmeoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D209C71E8DFC550088B1E6 /* WIFICheck-Dmeo */ = {
+			isa = PBXGroup;
+			children = (
+				64E2BFAF1E94AB2000922407 /* 地图 */,
+				64D20A0B1E8DFDD20088B1E6 /* WIFI信息 */,
+				64D209FE1E8DFD240088B1E6 /* Home */,
+				64D209FD1E8DFD1E0088B1E6 /* Lib */,
+				64D209FB1E8DFD180088B1E6 /* Other */,
+				64D209FC1E8DFD180088B1E6 /* Tool */,
+				64D209CB1E8DFC550088B1E6 /* AppDelegate.h */,
+				64D209CC1E8DFC550088B1E6 /* AppDelegate.m */,
+				64D209D11E8DFC550088B1E6 /* Main.storyboard */,
+				64D209D41E8DFC550088B1E6 /* Assets.xcassets */,
+				64D209D61E8DFC550088B1E6 /* LaunchScreen.storyboard */,
+				64D209D91E8DFC550088B1E6 /* Info.plist */,
+				64D209C81E8DFC550088B1E6 /* Supporting Files */,
+			);
+			path = "WIFICheck-Dmeo";
+			sourceTree = "<group>";
+		};
+		64D209C81E8DFC550088B1E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64D209C91E8DFC550088B1E6 /* main.m */,
+				64B9144D1E8F37DB00B459DB /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64D209E11E8DFC560088B1E6 /* WIFICheck-DmeoTests */ = {
+			isa = PBXGroup;
+			children = (
+				64D209E21E8DFC560088B1E6 /* WIFICheck_DmeoTests.m */,
+				64D209E41E8DFC560088B1E6 /* Info.plist */,
+			);
+			path = "WIFICheck-DmeoTests";
+			sourceTree = "<group>";
+		};
+		64D209EC1E8DFC560088B1E6 /* WIFICheck-DmeoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64D209ED1E8DFC560088B1E6 /* WIFICheck_DmeoUITests.m */,
+				64D209EF1E8DFC560088B1E6 /* Info.plist */,
+			);
+			path = "WIFICheck-DmeoUITests";
+			sourceTree = "<group>";
+		};
+		64D209FB1E8DFD180088B1E6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				64D209FF1E8DFD420088B1E6 /* WIFIBaseViewController.h */,
+				64D20A001E8DFD420088B1E6 /* WIFIBaseViewController.m */,
+				64D20A021E8DFD670088B1E6 /* WIFITabBarVC.h */,
+				64D20A031E8DFD670088B1E6 /* WIFITabBarVC.m */,
+				64D20A051E8DFD850088B1E6 /* WIFINavigationVC.h */,
+				64D20A061E8DFD850088B1E6 /* WIFINavigationVC.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		64D209FC1E8DFD180088B1E6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				64B914731E8F3BB100B459DB /* MainPresenter.h */,
+				64B914741E8F3BB100B459DB /* MainPresenter.m */,
+				64B9146D1E8F3B9400B459DB /* Device.h */,
+				64B9146E1E8F3B9400B459DB /* Device.m */,
+				64B9146F1E8F3B9400B459DB /* OUIParser.h */,
+				64B914701E8F3B9400B459DB /* OUIParser.m */,
+				64D20A121E8DFF220088B1E6 /* UIImage+Extension.h */,
+				64D20A131E8DFF220088B1E6 /* UIImage+Extension.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		64D209FD1E8DFD1E0088B1E6 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				64B9148B1E8F7F6C00B459DB /* YUFoldingTableView */,
+				64B914851E8F5BFB00B459DB /* QBDeviceInfo.h */,
+				64B914861E8F5BFB00B459DB /* QBDeviceInfo.m */,
+				64B914871E8F5BFB00B459DB /* QBReachability.h */,
+				64B914881E8F5BFB00B459DB /* QBReachability.m */,
+				64B9144E1E8F3B8400B459DB /* Data */,
+				64B914501E8F3B8400B459DB /* External Libs */,
+				64B9145B1E8F3B8400B459DB /* LANProperties.h */,
+				64B9145C1E8F3B8400B459DB /* LANProperties.m */,
+				64B9145D1E8F3B8400B459DB /* MACOperation.h */,
+				64B9145E1E8F3B8400B459DB /* MACOperation.m */,
+				64B9145F1E8F3B8400B459DB /* MMLANScanner.h */,
+				64B914601E8F3B8400B459DB /* MMLANScanner.m */,
+				64B914611E8F3B8400B459DB /* NetworkCalculator.h */,
+				64B914621E8F3B8400B459DB /* NetworkCalculator.m */,
+				64B914631E8F3B8400B459DB /* PingOperation.h */,
+				64B914641E8F3B8400B459DB /* PingOperation.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		64D209FE1E8DFD240088B1E6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				64D20A081E8DFDA30088B1E6 /* WIFIHomeVC.h */,
+				64D20A091E8DFDA30088B1E6 /* WIFIHomeVC.m */,
+				64B9144A1E8F376500B459DB /* HomeTableViewCell.h */,
+				64B9144B1E8F376500B459DB /* HomeTableViewCell.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		64D20A0B1E8DFDD20088B1E6 /* WIFI信息 */ = {
+			isa = PBXGroup;
+			children = (
+				64D20A0F1E8DFE850088B1E6 /* WIFILocalMsgVC.h */,
+				64D20A101E8DFE850088B1E6 /* WIFILocalMsgVC.m */,
+			);
+			path = "WIFI信息";
+			sourceTree = "<group>";
+		};
+		64E2BFAF1E94AB2000922407 /* 地图 */ = {
+			isa = PBXGroup;
+			children = (
+				64E2BFB01E94AB3A00922407 /* WIFILocalVC.h */,
+				64E2BFB11E94AB3A00922407 /* WIFILocalVC.m */,
+			);
+			path = "地图";
+			sourceTree = "<group>";
+		};
+		7F77669B8502DFA21830FB46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46C9A67761EDCE7F63A55385 /* Pods-WIFICheck-Dmeo.debug.xcconfig */,
+				6EA1BE89840F7131DC1C29B0 /* Pods-WIFICheck-Dmeo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D209C41E8DFC550088B1E6 /* WIFICheck-Dmeo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D209F21E8DFC560088B1E6 /* Build configuration list for PBXNativeTarget "WIFICheck-Dmeo" */;
+			buildPhases = (
+				90391B1990D08C922E5E8ED4 /* [CP] Check Pods Manifest.lock */,
+				64D209C11E8DFC550088B1E6 /* Sources */,
+				64D209C21E8DFC550088B1E6 /* Frameworks */,
+				64D209C31E8DFC550088B1E6 /* Resources */,
+				5CA4BDA5A23946DCB1349980 /* [CP] Embed Pods Frameworks */,
+				2EB908F35A3B3B1A18841B54 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WIFICheck-Dmeo";
+			productName = "WIFICheck-Dmeo";
+			productReference = 64D209C51E8DFC550088B1E6 /* WIFICheck-Dmeo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64D209DD1E8DFC560088B1E6 /* WIFICheck-DmeoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D209F51E8DFC560088B1E6 /* Build configuration list for PBXNativeTarget "WIFICheck-DmeoTests" */;
+			buildPhases = (
+				64D209DA1E8DFC560088B1E6 /* Sources */,
+				64D209DB1E8DFC560088B1E6 /* Frameworks */,
+				64D209DC1E8DFC560088B1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D209E01E8DFC560088B1E6 /* PBXTargetDependency */,
+			);
+			name = "WIFICheck-DmeoTests";
+			productName = "WIFICheck-DmeoTests";
+			productReference = 64D209DE1E8DFC560088B1E6 /* WIFICheck-DmeoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64D209E81E8DFC560088B1E6 /* WIFICheck-DmeoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D209F81E8DFC560088B1E6 /* Build configuration list for PBXNativeTarget "WIFICheck-DmeoUITests" */;
+			buildPhases = (
+				64D209E51E8DFC560088B1E6 /* Sources */,
+				64D209E61E8DFC560088B1E6 /* Frameworks */,
+				64D209E71E8DFC560088B1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D209EB1E8DFC560088B1E6 /* PBXTargetDependency */,
+			);
+			name = "WIFICheck-DmeoUITests";
+			productName = "WIFICheck-DmeoUITests";
+			productReference = 64D209E91E8DFC560088B1E6 /* WIFICheck-DmeoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D209BD1E8DFC550088B1E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = shen;
+				TargetAttributes = {
+					64D209C41E8DFC550088B1E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VTNCZD3KD7;
+						ProvisioningStyle = Automatic;
+					};
+					64D209DD1E8DFC560088B1E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3LNCXDL3W9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64D209C41E8DFC550088B1E6;
+					};
+					64D209E81E8DFC560088B1E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3LNCXDL3W9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64D209C41E8DFC550088B1E6;
+					};
+				};
+			};
+			buildConfigurationList = 64D209C01E8DFC550088B1E6 /* Build configuration list for PBXProject "WIFICheck-Dmeo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64D209BC1E8DFC550088B1E6;
+			productRefGroup = 64D209C61E8DFC550088B1E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D209C41E8DFC550088B1E6 /* WIFICheck-Dmeo */,
+				64D209DD1E8DFC560088B1E6 /* WIFICheck-DmeoTests */,
+				64D209E81E8DFC560088B1E6 /* WIFICheck-DmeoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D209C31E8DFC550088B1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B914911E8F7F6C00B459DB /* Arrow.png in Resources */,
+				64D209D81E8DFC550088B1E6 /* LaunchScreen.storyboard in Resources */,
+				64D209D51E8DFC550088B1E6 /* Assets.xcassets in Resources */,
+				64B914651E8F3B8400B459DB /* data.plist in Resources */,
+				64D209D31E8DFC550088B1E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D209DC1E8DFC560088B1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D209E71E8DFC560088B1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EB908F35A3B3B1A18841B54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WIFICheck-Dmeo/Pods-WIFICheck-Dmeo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CA4BDA5A23946DCB1349980 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WIFICheck-Dmeo/Pods-WIFICheck-Dmeo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90391B1990D08C922E5E8ED4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D209C11E8DFC550088B1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D20A0A1E8DFDA30088B1E6 /* WIFIHomeVC.m in Sources */,
+				64D20A011E8DFD420088B1E6 /* WIFIBaseViewController.m in Sources */,
+				64B914751E8F3BB100B459DB /* MainPresenter.m in Sources */,
+				64D20A041E8DFD670088B1E6 /* WIFITabBarVC.m in Sources */,
+				64B914891E8F5BFB00B459DB /* QBDeviceInfo.m in Sources */,
+				64B9146B1E8F3B8400B459DB /* NetworkCalculator.m in Sources */,
+				64B914661E8F3B8400B459DB /* MacFinder.m in Sources */,
+				64B914691E8F3B8400B459DB /* MACOperation.m in Sources */,
+				64D209CD1E8DFC550088B1E6 /* AppDelegate.m in Sources */,
+				64D20A111E8DFE850088B1E6 /* WIFILocalMsgVC.m in Sources */,
+				64B9148A1E8F5BFB00B459DB /* QBReachability.m in Sources */,
+				64E2BFB21E94AB3A00922407 /* WIFILocalVC.m in Sources */,
+				64B9144C1E8F376500B459DB /* HomeTableViewCell.m in Sources */,
+				64B9146C1E8F3B8400B459DB /* PingOperation.m in Sources */,
+				64B914671E8F3B8400B459DB /* SimplePing.m in Sources */,
+				64D20A071E8DFD850088B1E6 /* WIFINavigationVC.m in Sources */,
+				64B914931E8F7F6C00B459DB /* YUFoldingTableView.m in Sources */,
+				64B9146A1E8F3B8400B459DB /* MMLANScanner.m in Sources */,
+				64B914711E8F3B9400B459DB /* Device.m in Sources */,
+				64B914721E8F3B9400B459DB /* OUIParser.m in Sources */,
+				64B914921E8F7F6C00B459DB /* YUFoldingSectionHeader.m in Sources */,
+				64D209CA1E8DFC550088B1E6 /* main.m in Sources */,
+				64B914681E8F3B8400B459DB /* LANProperties.m in Sources */,
+				64D20A141E8DFF220088B1E6 /* UIImage+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D209DA1E8DFC560088B1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D209E31E8DFC560088B1E6 /* WIFICheck_DmeoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D209E51E8DFC560088B1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D209EE1E8DFC560088B1E6 /* WIFICheck_DmeoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64D209E01E8DFC560088B1E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D209C41E8DFC550088B1E6 /* WIFICheck-Dmeo */;
+			targetProxy = 64D209DF1E8DFC560088B1E6 /* PBXContainerItemProxy */;
+		};
+		64D209EB1E8DFC560088B1E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D209C41E8DFC550088B1E6 /* WIFICheck-Dmeo */;
+			targetProxy = 64D209EA1E8DFC560088B1E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64D209D11E8DFC550088B1E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D209D21E8DFC550088B1E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64D209D61E8DFC550088B1E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D209D71E8DFC550088B1E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64D209F01E8DFC560088B1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64D209F11E8DFC560088B1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64D209F31E8DFC560088B1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C9A67761EDCE7F63A55385 /* Pods-WIFICheck-Dmeo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VTNCZD3KD7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WIFICheck-Dmeo/PrefixHeader.pch";
+				INFOPLIST_FILE = "WIFICheck-Dmeo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shenn13.WIFICheck-Dmeo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64D209F41E8DFC560088B1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA1BE89840F7131DC1C29B0 /* Pods-WIFICheck-Dmeo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VTNCZD3KD7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WIFICheck-Dmeo/PrefixHeader.pch";
+				INFOPLIST_FILE = "WIFICheck-Dmeo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shenn13.WIFICheck-Dmeo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64D209F61E8DFC560088B1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				INFOPLIST_FILE = "WIFICheck-DmeoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shenn13.WIFICheck-DmeoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WIFICheck-Dmeo.app/WIFICheck-Dmeo";
+			};
+			name = Debug;
+		};
+		64D209F71E8DFC560088B1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				INFOPLIST_FILE = "WIFICheck-DmeoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shenn13.WIFICheck-DmeoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WIFICheck-Dmeo.app/WIFICheck-Dmeo";
+			};
+			name = Release;
+		};
+		64D209F91E8DFC560088B1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				INFOPLIST_FILE = "WIFICheck-DmeoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shenn13.WIFICheck-DmeoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WIFICheck-Dmeo";
+			};
+			name = Debug;
+		};
+		64D209FA1E8DFC560088B1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				INFOPLIST_FILE = "WIFICheck-DmeoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shenn13.WIFICheck-DmeoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WIFICheck-Dmeo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D209C01E8DFC550088B1E6 /* Build configuration list for PBXProject "WIFICheck-Dmeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D209F01E8DFC560088B1E6 /* Debug */,
+				64D209F11E8DFC560088B1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D209F21E8DFC560088B1E6 /* Build configuration list for PBXNativeTarget "WIFICheck-Dmeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D209F31E8DFC560088B1E6 /* Debug */,
+				64D209F41E8DFC560088B1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D209F51E8DFC560088B1E6 /* Build configuration list for PBXNativeTarget "WIFICheck-DmeoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D209F61E8DFC560088B1E6 /* Debug */,
+				64D209F71E8DFC560088B1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D209F81E8DFC560088B1E6 /* Build configuration list for PBXNativeTarget "WIFICheck-DmeoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D209F91E8DFC560088B1E6 /* Debug */,
+				64D209FA1E8DFC560088B1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64D209BD1E8DFC550088B1E6 /* Project object */;
+}

@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  WIFICheck-Dmeo
+//
+//  Created by shen on 17/4/1.
+//  Copyright © 2017年 shen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#ifndef __OPTIMIZE__
+#define NSLog(...) printf("DEBUG LOG:%s\n",[[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#endif
+
+#endif
+
+
+//屏幕的宽和高
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//以iPhone 5的屏幕为基准
+#define W(x) kScreenWidth*(x)/320.0
+#define H(y) kScreenHeight*(y)/568.0
+
+
+#define kMainScreenColor [UIColor colorWithRed:0.0/255 green:197.0/255 blue:11.0/255 alpha:1]
+
+#define ViewBackgroundColor [UIColor colorWithRed:240.0/255 green:240.0/255 blue:240.0/255 alpha:1];
+
+#endif /* PrefixHeader_pch */
