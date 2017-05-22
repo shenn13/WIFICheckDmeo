@@ -1,0 +1,1359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6442F9EC1EC971D500202027 /* WIFIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442F9E71EC971D500202027 /* WIFIBaseViewController.m */; };
+		6442F9ED1EC971D500202027 /* WIFINavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442F9E91EC971D500202027 /* WIFINavigationVC.m */; };
+		6442F9EE1EC971D500202027 /* WIFITabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442F9EB1EC971D500202027 /* WIFITabBarVC.m */; };
+		6442F9F51EC9723600202027 /* WIFILocalMsgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442F9F41EC9723600202027 /* WIFILocalMsgVC.m */; };
+		6442F9FB1EC9727200202027 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442F9FA1EC9727200202027 /* UIImage+Extension.m */; };
+		6442FA061EC976F200202027 /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6442F9FD1EC976F200202027 /* Arrow.png */; };
+		6442FA071EC976F200202027 /* YUFoldingSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442F9FF1EC976F200202027 /* YUFoldingSectionHeader.m */; };
+		6442FA081EC976F200202027 /* YUFoldingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA011EC976F200202027 /* YUFoldingTableView.m */; };
+		6442FA091EC976F200202027 /* QBDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA031EC976F200202027 /* QBDeviceInfo.m */; };
+		6442FA0A1EC976F200202027 /* QBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA051EC976F200202027 /* QBReachability.m */; };
+		6442FA0C1EC9781500202027 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6442FA0B1EC9781500202027 /* CoreFoundation.framework */; };
+		6442FA0E1EC9785100202027 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6442FA0D1EC9785100202027 /* CoreMotion.framework */; };
+		6442FA101EC9785D00202027 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6442FA0F1EC9785D00202027 /* AVFoundation.framework */; };
+		6442FA121EC9787000202027 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6442FA111EC9787000202027 /* AudioToolbox.framework */; };
+		6442FA141EC9787B00202027 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6442FA131EC9787B00202027 /* libresolv.tbd */; };
+		6442FA951EC97E3100202027 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA181EC97E3100202027 /* UIImage+Extension.m */; };
+		6442FA961EC97E3100202027 /* UIView+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA1A1EC97E3100202027 /* UIView+MJ.m */; };
+		6442FA971EC97E3100202027 /* libGDTMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6442FA221EC97E3100202027 /* libGDTMobSDK.a */; };
+		6442FA981EC97E3100202027 /* CKAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA261EC97E3100202027 /* CKAlertViewController.m */; };
+		6442FA991EC97E3100202027 /* GGActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA291EC97E3100202027 /* GGActionSheet.m */; };
+		6442FA9A1EC97E3100202027 /* LSSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA2C1EC97E3100202027 /* LSSAlertView.m */; };
+		6442FA9B1EC97E3100202027 /* FirstVideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA301EC97E3100202027 /* FirstVideosViewController.m */; };
+		6442FA9C1EC97E3100202027 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA321EC97E3100202027 /* FourViewController.m */; };
+		6442FA9D1EC97E3100202027 /* GreatVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA341EC97E3100202027 /* GreatVideoViewController.m */; };
+		6442FA9E1EC97E3100202027 /* XSMediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA371EC97E3100202027 /* XSMediaPlayer.m */; };
+		6442FA9F1EC97E3100202027 /* XSMediaPlayerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA391EC97E3100202027 /* XSMediaPlayerMaskView.m */; };
+		6442FAA01EC97E3100202027 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA3B1EC97E3100202027 /* SecondViewController.m */; };
+		6442FAA11EC97E3100202027 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA3D1EC97E3100202027 /* ThirdViewController.m */; };
+		6442FAA21EC97E3100202027 /* VideosModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA3F1EC97E3100202027 /* VideosModel.m */; };
+		6442FAA31EC97E3100202027 /* VideosPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA411EC97E3100202027 /* VideosPlayerViewController.m */; };
+		6442FAA41EC97E3100202027 /* MovieFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA441EC97E3100202027 /* MovieFirstViewController.m */; };
+		6442FAA51EC97E3100202027 /* MovieFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA461EC97E3100202027 /* MovieFourViewController.m */; };
+		6442FAA61EC97E3100202027 /* MovieSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA481EC97E3100202027 /* MovieSecondViewController.m */; };
+		6442FAA71EC97E3100202027 /* MovieThirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA4A1EC97E3100202027 /* MovieThirViewController.m */; };
+		6442FAA81EC97E3100202027 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA4C1EC97E3100202027 /* MovieViewController.m */; };
+		6442FAA91EC97E3100202027 /* TVFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA4F1EC97E3100202027 /* TVFirstViewController.m */; };
+		6442FAAA1EC97E3100202027 /* TVFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA511EC97E3100202027 /* TVFourViewController.m */; };
+		6442FAAB1EC97E3100202027 /* TVSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA531EC97E3100202027 /* TVSecondViewController.m */; };
+		6442FAAC1EC97E3100202027 /* TVThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA551EC97E3100202027 /* TVThirdViewController.m */; };
+		6442FAAD1EC97E3100202027 /* TVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA571EC97E3100202027 /* TVViewController.m */; };
+		6442FAAE1EC97E3100202027 /* VideosDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA591EC97E3100202027 /* VideosDetailViewController.m */; };
+		6442FAAF1EC97E3100202027 /* MovieBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA5C1EC97E3100202027 /* MovieBaseViewController.m */; };
+		6442FAB01EC97E3100202027 /* MovieNagationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA5E1EC97E3100202027 /* MovieNagationViewController.m */; };
+		6442FAB11EC97E3100202027 /* MovieTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA601EC97E3100202027 /* MovieTabBarViewController.m */; };
+		6442FAB21EC97E3100202027 /* AFNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA631EC97E3100202027 /* AFNetworkingManager.m */; };
+		6442FAB31EC97E3100202027 /* BaoHistoryManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA651EC97E3100202027 /* BaoHistoryManger.m */; };
+		6442FAB41EC97E3100202027 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA661EC97E3100202027 /* Foundation+Log.m */; };
+		6442FAB51EC97E3100202027 /* PlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA681EC97E3100202027 /* PlayerTool.m */; };
+		6442FAB61EC97E3100202027 /* AppDownLoadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA6C1EC97E3100202027 /* AppDownLoadVC.m */; };
+		6442FAB71EC97E3100202027 /* CollectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA6E1EC97E3100202027 /* CollectViewController.m */; };
+		6442FAB81EC97E3100202027 /* MySettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA701EC97E3100202027 /* MySettingViewController.m */; };
+		6442FAB91EC97E3100202027 /* SuggestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA721EC97E3100202027 /* SuggestionsViewController.m */; };
+		6442FABA1EC97E3100202027 /* XBSettingItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA751EC97E3100202027 /* XBSettingItemModel.m */; };
+		6442FABB1EC97E3100202027 /* XBSettingSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA771EC97E3100202027 /* XBSettingSectionModel.m */; };
+		6442FABC1EC97E3100202027 /* EPProgressShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA7A1EC97E3100202027 /* EPProgressShow.m */; };
+		6442FABD1EC97E3100202027 /* PDKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA7D1EC97E3100202027 /* PDKeyChain.m */; };
+		6442FABE1EC97E3100202027 /* UIView+XBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA7F1EC97E3100202027 /* UIView+XBExtension.m */; };
+		6442FABF1EC97E3100202027 /* XBSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA821EC97E3100202027 /* XBSettingCell.m */; };
+		6442FAC01EC97E3100202027 /* PYSearch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6442FA851EC97E3100202027 /* PYSearch.bundle */; };
+		6442FAC11EC97E3100202027 /* PYSearchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA881EC97E3100202027 /* PYSearchConst.m */; };
+		6442FAC21EC97E3100202027 /* PYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA8A1EC97E3100202027 /* PYSearchViewController.m */; };
+		6442FAC31EC97E3100202027 /* UIColor+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA8C1EC97E3100202027 /* UIColor+PYSearchExtension.m */; };
+		6442FAC41EC97E3100202027 /* UIView+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA8E1EC97E3100202027 /* UIView+PYSearchExtension.m */; };
+		6442FAC51EC97E3100202027 /* SearchCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA901EC97E3100202027 /* SearchCollectionViewCell.m */; };
+		6442FAC61EC97E3100202027 /* SearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA921EC97E3100202027 /* SearchModel.m */; };
+		6442FAC71EC97E3100202027 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442FA941EC97E3100202027 /* SearchViewController.m */; };
+		6442FAD21EC990FF00202027 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6442FAD11EC990FF00202027 /* Launch Screen.storyboard */; };
+		A805F62F1B552A8000ACE37C /* TMSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = A805F62E1B552A8000ACE37C /* TMSearchController.m */; };
+		A805F6321B552C4800ACE37C /* TMWifiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A805F6311B552C4800ACE37C /* TMWifiCell.m */; };
+		A805F63D1B55F31800ACE37C /* IPDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = A805F6371B55F31800ACE37C /* IPDetector.m */; };
+		A805F63E1B55F31800ACE37C /* ScanLAN.m in Sources */ = {isa = PBXBuildFile; fileRef = A805F6391B55F31800ACE37C /* ScanLAN.m */; };
+		A805F63F1B55F31800ACE37C /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A805F63B1B55F31800ACE37C /* Utils.m */; };
+		A805F6441B55F6D000ACE37C /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = A805F6411B55F6D000ACE37C /* SimplePing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A805F6451B55F6D000ACE37C /* SimplePingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A805F6431B55F6D000ACE37C /* SimplePingHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8BF507E1B53FBC40070678E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF507D1B53FBC40070678E /* main.m */; };
+		A8BF50811B53FBC40070678E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF50801B53FBC40070678E /* AppDelegate.m */; };
+		A8BF50891B53FBC40070678E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BF50881B53FBC40070678E /* Images.xcassets */; };
+		A8BF50981B53FBC50070678E /* gelaisiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF50971B53FBC50070678E /* gelaisiTests.m */; };
+		A8BF511D1B5401E10070678E /* FVCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF50A51B5401E10070678E /* FVCustomAlertView.m */; };
+		A8BF511E1B5401E10070678E /* IMGActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF50A71B5401E10070678E /* IMGActivityIndicator.m */; };
+		A8BF511F1B5401E10070678E /* UNAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF50A91B5401E10070678E /* UNAlertView.m */; };
+		A8BF51241B5401E10070678E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A8BF50B41B5401E10070678E /* LICENSE */; };
+		A8BF51251B5401E10070678E /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF50B81B5401E10070678E /* ALView+PureLayout.m */; };
+		A8BF51261B5401E10070678E /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF50BA1B5401E10070678E /* NSArray+PureLayout.m */; };
+		A8BF51271B5401E10070678E /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF50BC1B5401E10070678E /* NSLayoutConstraint+PureLayout.m */; };
+		A8BF51541B5404050070678E /* UtilToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF51511B5404050070678E /* UtilToolkit.m */; };
+		A8BF515C1B5406AC0070678E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BF515B1B5406AC0070678E /* libsqlite3.dylib */; };
+		A8BF515E1B5406E30070678E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BF515D1B5406E30070678E /* libz.dylib */; };
+		A8BF51601B5406FA0070678E /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BF515F1B5406FA0070678E /* libstdc++.dylib */; };
+		A8BF51621B5407050070678E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BF51611B5407050070678E /* SystemConfiguration.framework */; };
+		A8BF51641B54070C0070678E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BF51631B54070C0070678E /* Security.framework */; };
+		A8BF51661B5407140070678E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BF51651B5407140070678E /* CFNetwork.framework */; };
+		DE02847315AE12FF20077306 /* libPods-gelaisi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8ACD83E86397F46843A474 /* libPods-gelaisi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8BF50921B53FBC50070678E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8BF50701B53FBC40070678E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8BF50771B53FBC40070678E;
+			remoteInfo = gelaisi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6442F9E61EC971D500202027 /* WIFIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFIBaseViewController.h; sourceTree = "<group>"; };
+		6442F9E71EC971D500202027 /* WIFIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIFIBaseViewController.m; sourceTree = "<group>"; };
+		6442F9E81EC971D500202027 /* WIFINavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFINavigationVC.h; sourceTree = "<group>"; };
+		6442F9E91EC971D500202027 /* WIFINavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIFINavigationVC.m; sourceTree = "<group>"; };
+		6442F9EA1EC971D500202027 /* WIFITabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFITabBarVC.h; sourceTree = "<group>"; };
+		6442F9EB1EC971D500202027 /* WIFITabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIFITabBarVC.m; sourceTree = "<group>"; };
+		6442F9F31EC9723600202027 /* WIFILocalMsgVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFILocalMsgVC.h; sourceTree = "<group>"; };
+		6442F9F41EC9723600202027 /* WIFILocalMsgVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIFILocalMsgVC.m; sourceTree = "<group>"; };
+		6442F9F91EC9727200202027 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		6442F9FA1EC9727200202027 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		6442F9FD1EC976F200202027 /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
+		6442F9FE1EC976F200202027 /* YUFoldingSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUFoldingSectionHeader.h; sourceTree = "<group>"; };
+		6442F9FF1EC976F200202027 /* YUFoldingSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUFoldingSectionHeader.m; sourceTree = "<group>"; };
+		6442FA001EC976F200202027 /* YUFoldingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUFoldingTableView.h; sourceTree = "<group>"; };
+		6442FA011EC976F200202027 /* YUFoldingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUFoldingTableView.m; sourceTree = "<group>"; };
+		6442FA021EC976F200202027 /* QBDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDeviceInfo.h; sourceTree = "<group>"; };
+		6442FA031EC976F200202027 /* QBDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDeviceInfo.m; sourceTree = "<group>"; };
+		6442FA041EC976F200202027 /* QBReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBReachability.h; sourceTree = "<group>"; };
+		6442FA051EC976F200202027 /* QBReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBReachability.m; sourceTree = "<group>"; };
+		6442FA0B1EC9781500202027 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		6442FA0D1EC9785100202027 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		6442FA0F1EC9785D00202027 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6442FA111EC9787000202027 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6442FA131EC9787B00202027 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		6442FA171EC97E3100202027 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		6442FA181EC97E3100202027 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		6442FA191EC97E3100202027 /* UIView+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJ.h"; sourceTree = "<group>"; };
+		6442FA1A1EC97E3100202027 /* UIView+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJ.m"; sourceTree = "<group>"; };
+		6442FA1D1EC97E3100202027 /* GDTMobBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobBannerView.h; sourceTree = "<group>"; };
+		6442FA1E1EC97E3100202027 /* GDTMobInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobInterstitial.h; sourceTree = "<group>"; };
+		6442FA1F1EC97E3100202027 /* GDTNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeAd.h; sourceTree = "<group>"; };
+		6442FA201EC97E3100202027 /* GDTSplashAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplashAd.h; sourceTree = "<group>"; };
+		6442FA211EC97E3100202027 /* GDTTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTTrack.h; sourceTree = "<group>"; };
+		6442FA221EC97E3100202027 /* libGDTMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGDTMobSDK.a; sourceTree = "<group>"; };
+		6442FA251EC97E3100202027 /* CKAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKAlertViewController.h; sourceTree = "<group>"; };
+		6442FA261EC97E3100202027 /* CKAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKAlertViewController.m; sourceTree = "<group>"; };
+		6442FA281EC97E3100202027 /* GGActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGActionSheet.h; sourceTree = "<group>"; };
+		6442FA291EC97E3100202027 /* GGActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGActionSheet.m; sourceTree = "<group>"; };
+		6442FA2B1EC97E3100202027 /* LSSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSAlertView.h; sourceTree = "<group>"; };
+		6442FA2C1EC97E3100202027 /* LSSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSSAlertView.m; sourceTree = "<group>"; };
+		6442FA2F1EC97E3100202027 /* FirstVideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVideosViewController.h; sourceTree = "<group>"; };
+		6442FA301EC97E3100202027 /* FirstVideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVideosViewController.m; sourceTree = "<group>"; };
+		6442FA311EC97E3100202027 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		6442FA321EC97E3100202027 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		6442FA331EC97E3100202027 /* GreatVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreatVideoViewController.h; sourceTree = "<group>"; };
+		6442FA341EC97E3100202027 /* GreatVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreatVideoViewController.m; sourceTree = "<group>"; };
+		6442FA361EC97E3100202027 /* XSMediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSMediaPlayer.h; sourceTree = "<group>"; };
+		6442FA371EC97E3100202027 /* XSMediaPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSMediaPlayer.m; sourceTree = "<group>"; };
+		6442FA381EC97E3100202027 /* XSMediaPlayerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSMediaPlayerMaskView.h; sourceTree = "<group>"; };
+		6442FA391EC97E3100202027 /* XSMediaPlayerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSMediaPlayerMaskView.m; sourceTree = "<group>"; };
+		6442FA3A1EC97E3100202027 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6442FA3B1EC97E3100202027 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6442FA3C1EC97E3100202027 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		6442FA3D1EC97E3100202027 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		6442FA3E1EC97E3100202027 /* VideosModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosModel.h; sourceTree = "<group>"; };
+		6442FA3F1EC97E3100202027 /* VideosModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosModel.m; sourceTree = "<group>"; };
+		6442FA401EC97E3100202027 /* VideosPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosPlayerViewController.h; sourceTree = "<group>"; };
+		6442FA411EC97E3100202027 /* VideosPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosPlayerViewController.m; sourceTree = "<group>"; };
+		6442FA431EC97E3100202027 /* MovieFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieFirstViewController.h; sourceTree = "<group>"; };
+		6442FA441EC97E3100202027 /* MovieFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieFirstViewController.m; sourceTree = "<group>"; };
+		6442FA451EC97E3100202027 /* MovieFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieFourViewController.h; sourceTree = "<group>"; };
+		6442FA461EC97E3100202027 /* MovieFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieFourViewController.m; sourceTree = "<group>"; };
+		6442FA471EC97E3100202027 /* MovieSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieSecondViewController.h; sourceTree = "<group>"; };
+		6442FA481EC97E3100202027 /* MovieSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieSecondViewController.m; sourceTree = "<group>"; };
+		6442FA491EC97E3100202027 /* MovieThirViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieThirViewController.h; sourceTree = "<group>"; };
+		6442FA4A1EC97E3100202027 /* MovieThirViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieThirViewController.m; sourceTree = "<group>"; };
+		6442FA4B1EC97E3100202027 /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		6442FA4C1EC97E3100202027 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		6442FA4E1EC97E3100202027 /* TVFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVFirstViewController.h; sourceTree = "<group>"; };
+		6442FA4F1EC97E3100202027 /* TVFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVFirstViewController.m; sourceTree = "<group>"; };
+		6442FA501EC97E3100202027 /* TVFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVFourViewController.h; sourceTree = "<group>"; };
+		6442FA511EC97E3100202027 /* TVFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVFourViewController.m; sourceTree = "<group>"; };
+		6442FA521EC97E3100202027 /* TVSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVSecondViewController.h; sourceTree = "<group>"; };
+		6442FA531EC97E3100202027 /* TVSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVSecondViewController.m; sourceTree = "<group>"; };
+		6442FA541EC97E3100202027 /* TVThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVThirdViewController.h; sourceTree = "<group>"; };
+		6442FA551EC97E3100202027 /* TVThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVThirdViewController.m; sourceTree = "<group>"; };
+		6442FA561EC97E3100202027 /* TVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVViewController.h; sourceTree = "<group>"; };
+		6442FA571EC97E3100202027 /* TVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVViewController.m; sourceTree = "<group>"; };
+		6442FA581EC97E3100202027 /* VideosDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosDetailViewController.h; sourceTree = "<group>"; };
+		6442FA591EC97E3100202027 /* VideosDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosDetailViewController.m; sourceTree = "<group>"; };
+		6442FA5B1EC97E3100202027 /* MovieBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieBaseViewController.h; sourceTree = "<group>"; };
+		6442FA5C1EC97E3100202027 /* MovieBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieBaseViewController.m; sourceTree = "<group>"; };
+		6442FA5D1EC97E3100202027 /* MovieNagationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieNagationViewController.h; sourceTree = "<group>"; };
+		6442FA5E1EC97E3100202027 /* MovieNagationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieNagationViewController.m; sourceTree = "<group>"; };
+		6442FA5F1EC97E3100202027 /* MovieTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTabBarViewController.h; sourceTree = "<group>"; };
+		6442FA601EC97E3100202027 /* MovieTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTabBarViewController.m; sourceTree = "<group>"; };
+		6442FA621EC97E3100202027 /* AFNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkingManager.h; sourceTree = "<group>"; };
+		6442FA631EC97E3100202027 /* AFNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingManager.m; sourceTree = "<group>"; };
+		6442FA641EC97E3100202027 /* BaoHistoryManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaoHistoryManger.h; sourceTree = "<group>"; };
+		6442FA651EC97E3100202027 /* BaoHistoryManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaoHistoryManger.m; sourceTree = "<group>"; };
+		6442FA661EC97E3100202027 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		6442FA671EC97E3100202027 /* PlayerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerTool.h; sourceTree = "<group>"; };
+		6442FA681EC97E3100202027 /* PlayerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerTool.m; sourceTree = "<group>"; };
+		6442FA6B1EC97E3100202027 /* AppDownLoadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDownLoadVC.h; sourceTree = "<group>"; };
+		6442FA6C1EC97E3100202027 /* AppDownLoadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDownLoadVC.m; sourceTree = "<group>"; };
+		6442FA6D1EC97E3100202027 /* CollectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectViewController.h; sourceTree = "<group>"; };
+		6442FA6E1EC97E3100202027 /* CollectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectViewController.m; sourceTree = "<group>"; };
+		6442FA6F1EC97E3100202027 /* MySettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySettingViewController.h; sourceTree = "<group>"; };
+		6442FA701EC97E3100202027 /* MySettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySettingViewController.m; sourceTree = "<group>"; };
+		6442FA711EC97E3100202027 /* SuggestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionsViewController.h; sourceTree = "<group>"; };
+		6442FA721EC97E3100202027 /* SuggestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionsViewController.m; sourceTree = "<group>"; };
+		6442FA741EC97E3100202027 /* XBSettingItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSettingItemModel.h; sourceTree = "<group>"; };
+		6442FA751EC97E3100202027 /* XBSettingItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSettingItemModel.m; sourceTree = "<group>"; };
+		6442FA761EC97E3100202027 /* XBSettingSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSettingSectionModel.h; sourceTree = "<group>"; };
+		6442FA771EC97E3100202027 /* XBSettingSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSettingSectionModel.m; sourceTree = "<group>"; };
+		6442FA791EC97E3100202027 /* EPProgressShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPProgressShow.h; sourceTree = "<group>"; };
+		6442FA7A1EC97E3100202027 /* EPProgressShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPProgressShow.m; sourceTree = "<group>"; };
+		6442FA7B1EC97E3100202027 /* MySetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySetting.h; sourceTree = "<group>"; };
+		6442FA7C1EC97E3100202027 /* PDKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeyChain.h; sourceTree = "<group>"; };
+		6442FA7D1EC97E3100202027 /* PDKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeyChain.m; sourceTree = "<group>"; };
+		6442FA7E1EC97E3100202027 /* UIView+XBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XBExtension.h"; sourceTree = "<group>"; };
+		6442FA7F1EC97E3100202027 /* UIView+XBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XBExtension.m"; sourceTree = "<group>"; };
+		6442FA811EC97E3100202027 /* XBSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSettingCell.h; sourceTree = "<group>"; };
+		6442FA821EC97E3100202027 /* XBSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSettingCell.m; sourceTree = "<group>"; };
+		6442FA851EC97E3100202027 /* PYSearch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PYSearch.bundle; sourceTree = "<group>"; };
+		6442FA861EC97E3100202027 /* PYSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearch.h; sourceTree = "<group>"; };
+		6442FA871EC97E3100202027 /* PYSearchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchConst.h; sourceTree = "<group>"; };
+		6442FA881EC97E3100202027 /* PYSearchConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchConst.m; sourceTree = "<group>"; };
+		6442FA891EC97E3100202027 /* PYSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchViewController.h; sourceTree = "<group>"; };
+		6442FA8A1EC97E3100202027 /* PYSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchViewController.m; sourceTree = "<group>"; };
+		6442FA8B1EC97E3100202027 /* UIColor+PYSearchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PYSearchExtension.h"; sourceTree = "<group>"; };
+		6442FA8C1EC97E3100202027 /* UIColor+PYSearchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PYSearchExtension.m"; sourceTree = "<group>"; };
+		6442FA8D1EC97E3100202027 /* UIView+PYSearchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PYSearchExtension.h"; sourceTree = "<group>"; };
+		6442FA8E1EC97E3100202027 /* UIView+PYSearchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYSearchExtension.m"; sourceTree = "<group>"; };
+		6442FA8F1EC97E3100202027 /* SearchCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCollectionViewCell.h; sourceTree = "<group>"; };
+		6442FA901EC97E3100202027 /* SearchCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCollectionViewCell.m; sourceTree = "<group>"; };
+		6442FA911EC97E3100202027 /* SearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchModel.h; sourceTree = "<group>"; };
+		6442FA921EC97E3100202027 /* SearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchModel.m; sourceTree = "<group>"; };
+		6442FA931EC97E3100202027 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		6442FA941EC97E3100202027 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		6442FAC81EC97E4400202027 /* Api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Api.h; sourceTree = "<group>"; };
+		6442FAD11EC990FF00202027 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A805023B1B56C86A00ACE37C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A805F62D1B552A8000ACE37C /* TMSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSearchController.h; sourceTree = "<group>"; };
+		A805F62E1B552A8000ACE37C /* TMSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSearchController.m; sourceTree = "<group>"; };
+		A805F6301B552C4800ACE37C /* TMWifiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMWifiCell.h; sourceTree = "<group>"; };
+		A805F6311B552C4800ACE37C /* TMWifiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMWifiCell.m; sourceTree = "<group>"; };
+		A805F6361B55F31800ACE37C /* IPDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPDetector.h; sourceTree = "<group>"; };
+		A805F6371B55F31800ACE37C /* IPDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPDetector.m; sourceTree = "<group>"; };
+		A805F6381B55F31800ACE37C /* ScanLAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanLAN.h; sourceTree = "<group>"; };
+		A805F6391B55F31800ACE37C /* ScanLAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanLAN.m; sourceTree = "<group>"; };
+		A805F63A1B55F31800ACE37C /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		A805F63B1B55F31800ACE37C /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		A805F6401B55F6D000ACE37C /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		A805F6411B55F6D000ACE37C /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		A805F6421B55F6D000ACE37C /* SimplePingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePingHelper.h; sourceTree = "<group>"; };
+		A805F6431B55F6D000ACE37C /* SimplePingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePingHelper.m; sourceTree = "<group>"; };
+		A805F6461B55F77400ACE37C /* if_arp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if_arp.h; sourceTree = "<group>"; };
+		A805F6471B55F77400ACE37C /* if_ether.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if_ether.h; sourceTree = "<group>"; };
+		A805F6481B55F77400ACE37C /* if_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if_types.h; sourceTree = "<group>"; };
+		A805F6491B55F77400ACE37C /* route.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		A8BF50781B53FBC40070678E /* gelaisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gelaisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BF507C1B53FBC40070678E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BF507D1B53FBC40070678E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8BF507F1B53FBC40070678E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8BF50801B53FBC40070678E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8BF50881B53FBC40070678E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8BF50911B53FBC50070678E /* gelaisiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gelaisiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BF50961B53FBC50070678E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BF50971B53FBC50070678E /* gelaisiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gelaisiTests.m; sourceTree = "<group>"; };
+		A8BF50A31B5401E10070678E /* FVCustomAlertView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FVCustomAlertView-Prefix.pch"; sourceTree = "<group>"; };
+		A8BF50A41B5401E10070678E /* FVCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVCustomAlertView.h; sourceTree = "<group>"; };
+		A8BF50A51B5401E10070678E /* FVCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVCustomAlertView.m; sourceTree = "<group>"; };
+		A8BF50A61B5401E10070678E /* IMGActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMGActivityIndicator.h; sourceTree = "<group>"; };
+		A8BF50A71B5401E10070678E /* IMGActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMGActivityIndicator.m; sourceTree = "<group>"; };
+		A8BF50A81B5401E10070678E /* UNAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNAlertView.h; sourceTree = "<group>"; };
+		A8BF50A91B5401E10070678E /* UNAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNAlertView.m; sourceTree = "<group>"; };
+		A8BF50B41B5401E10070678E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A8BF50B71B5401E10070678E /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		A8BF50B81B5401E10070678E /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		A8BF50B91B5401E10070678E /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		A8BF50BA1B5401E10070678E /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		A8BF50BB1B5401E10070678E /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		A8BF50BC1B5401E10070678E /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		A8BF50BD1B5401E10070678E /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		A8BF50BE1B5401E10070678E /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		A8BF50BF1B5401E10070678E /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		A8BF514F1B5404050070678E /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Macro.h; path = Vender/Macro.h; sourceTree = "<group>"; };
+		A8BF51501B5404050070678E /* UtilToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UtilToolkit.h; path = Vender/UtilToolkit.h; sourceTree = "<group>"; };
+		A8BF51511B5404050070678E /* UtilToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UtilToolkit.m; path = Vender/UtilToolkit.m; sourceTree = "<group>"; };
+		A8BF51561B54050F0070678E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A8BF515B1B5406AC0070678E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A8BF515D1B5406E30070678E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A8BF515F1B5406FA0070678E /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		A8BF51611B5407050070678E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A8BF51631B54070C0070678E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A8BF51651B5407140070678E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BA1D6C3A5E5B3058AB5116E9 /* Pods-gelaisi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gelaisi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gelaisi/Pods-gelaisi.debug.xcconfig"; sourceTree = "<group>"; };
+		EA8ACD83E86397F46843A474 /* libPods-gelaisi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gelaisi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC84E8ECE7FC85CB8B28915 /* Pods-gelaisi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gelaisi.release.xcconfig"; path = "Pods/Target Support Files/Pods-gelaisi/Pods-gelaisi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8BF50751B53FBC40070678E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6442FA141EC9787B00202027 /* libresolv.tbd in Frameworks */,
+				6442FA121EC9787000202027 /* AudioToolbox.framework in Frameworks */,
+				6442FA101EC9785D00202027 /* AVFoundation.framework in Frameworks */,
+				6442FA0E1EC9785100202027 /* CoreMotion.framework in Frameworks */,
+				6442FA0C1EC9781500202027 /* CoreFoundation.framework in Frameworks */,
+				A8BF51661B5407140070678E /* CFNetwork.framework in Frameworks */,
+				A8BF51641B54070C0070678E /* Security.framework in Frameworks */,
+				A8BF51621B5407050070678E /* SystemConfiguration.framework in Frameworks */,
+				A8BF51601B5406FA0070678E /* libstdc++.dylib in Frameworks */,
+				A8BF515E1B5406E30070678E /* libz.dylib in Frameworks */,
+				6442FA971EC97E3100202027 /* libGDTMobSDK.a in Frameworks */,
+				A8BF515C1B5406AC0070678E /* libsqlite3.dylib in Frameworks */,
+				DE02847315AE12FF20077306 /* libPods-gelaisi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BF508E1B53FBC50070678E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55051802F27FDE41C90C8890 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA1D6C3A5E5B3058AB5116E9 /* Pods-gelaisi.debug.xcconfig */,
+				ECC84E8ECE7FC85CB8B28915 /* Pods-gelaisi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6442F9E51EC971C300202027 /* OtherViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6442F9E61EC971D500202027 /* WIFIBaseViewController.h */,
+				6442F9E71EC971D500202027 /* WIFIBaseViewController.m */,
+				6442F9E81EC971D500202027 /* WIFINavigationVC.h */,
+				6442F9E91EC971D500202027 /* WIFINavigationVC.m */,
+				6442F9EA1EC971D500202027 /* WIFITabBarVC.h */,
+				6442F9EB1EC971D500202027 /* WIFITabBarVC.m */,
+			);
+			path = OtherViewController;
+			sourceTree = "<group>";
+		};
+		6442F9EF1EC971FA00202027 /* WIFI信息 */ = {
+			isa = PBXGroup;
+			children = (
+				6442F9F91EC9727200202027 /* UIImage+Extension.h */,
+				6442F9FA1EC9727200202027 /* UIImage+Extension.m */,
+				6442F9F31EC9723600202027 /* WIFILocalMsgVC.h */,
+				6442F9F41EC9723600202027 /* WIFILocalMsgVC.m */,
+			);
+			path = "WIFI信息";
+			sourceTree = "<group>";
+		};
+		6442F9FC1EC976F200202027 /* YUFoldingTableView */ = {
+			isa = PBXGroup;
+			children = (
+				6442F9FD1EC976F200202027 /* Arrow.png */,
+				6442F9FE1EC976F200202027 /* YUFoldingSectionHeader.h */,
+				6442F9FF1EC976F200202027 /* YUFoldingSectionHeader.m */,
+				6442FA001EC976F200202027 /* YUFoldingTableView.h */,
+				6442FA011EC976F200202027 /* YUFoldingTableView.m */,
+			);
+			path = YUFoldingTableView;
+			sourceTree = "<group>";
+		};
+		6442FA151EC97E3100202027 /* MovieVideo */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA161EC97E3100202027 /* Category */,
+				6442FA1B1EC97E3100202027 /* GDTSDK */,
+				6442FA231EC97E3100202027 /* Lib */,
+				6442FA2D1EC97E3100202027 /* MainViewController */,
+				6442FA5A1EC97E3100202027 /* MovieOtherController */,
+				6442FA611EC97E3100202027 /* MovieTool */,
+				6442FA691EC97E3100202027 /* MySetting */,
+				6442FA831EC97E3100202027 /* SearchView */,
+			);
+			path = MovieVideo;
+			sourceTree = "<group>";
+		};
+		6442FA161EC97E3100202027 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA171EC97E3100202027 /* UIImage+Extension.h */,
+				6442FA181EC97E3100202027 /* UIImage+Extension.m */,
+				6442FA191EC97E3100202027 /* UIView+MJ.h */,
+				6442FA1A1EC97E3100202027 /* UIView+MJ.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6442FA1B1EC97E3100202027 /* GDTSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA1C1EC97E3100202027 /* libs */,
+			);
+			path = GDTSDK;
+			sourceTree = "<group>";
+		};
+		6442FA1C1EC97E3100202027 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA1D1EC97E3100202027 /* GDTMobBannerView.h */,
+				6442FA1E1EC97E3100202027 /* GDTMobInterstitial.h */,
+				6442FA1F1EC97E3100202027 /* GDTNativeAd.h */,
+				6442FA201EC97E3100202027 /* GDTSplashAd.h */,
+				6442FA211EC97E3100202027 /* GDTTrack.h */,
+				6442FA221EC97E3100202027 /* libGDTMobSDK.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		6442FA231EC97E3100202027 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA241EC97E3100202027 /* CKAlertViewController */,
+				6442FA271EC97E3100202027 /* GGActionSheet */,
+				6442FA2A1EC97E3100202027 /* LSSAlertView */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		6442FA241EC97E3100202027 /* CKAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA251EC97E3100202027 /* CKAlertViewController.h */,
+				6442FA261EC97E3100202027 /* CKAlertViewController.m */,
+			);
+			path = CKAlertViewController;
+			sourceTree = "<group>";
+		};
+		6442FA271EC97E3100202027 /* GGActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA281EC97E3100202027 /* GGActionSheet.h */,
+				6442FA291EC97E3100202027 /* GGActionSheet.m */,
+			);
+			path = GGActionSheet;
+			sourceTree = "<group>";
+		};
+		6442FA2A1EC97E3100202027 /* LSSAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA2B1EC97E3100202027 /* LSSAlertView.h */,
+				6442FA2C1EC97E3100202027 /* LSSAlertView.m */,
+			);
+			path = LSSAlertView;
+			sourceTree = "<group>";
+		};
+		6442FA2D1EC97E3100202027 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA2E1EC97E3100202027 /* GreatVideo */,
+				6442FA421EC97E3100202027 /* Movie */,
+				6442FA4D1EC97E3100202027 /* TV */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		6442FA2E1EC97E3100202027 /* GreatVideo */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA2F1EC97E3100202027 /* FirstVideosViewController.h */,
+				6442FA301EC97E3100202027 /* FirstVideosViewController.m */,
+				6442FA311EC97E3100202027 /* FourViewController.h */,
+				6442FA321EC97E3100202027 /* FourViewController.m */,
+				6442FA331EC97E3100202027 /* GreatVideoViewController.h */,
+				6442FA341EC97E3100202027 /* GreatVideoViewController.m */,
+				6442FA351EC97E3100202027 /* Player */,
+				6442FA3A1EC97E3100202027 /* SecondViewController.h */,
+				6442FA3B1EC97E3100202027 /* SecondViewController.m */,
+				6442FA3C1EC97E3100202027 /* ThirdViewController.h */,
+				6442FA3D1EC97E3100202027 /* ThirdViewController.m */,
+				6442FA3E1EC97E3100202027 /* VideosModel.h */,
+				6442FA3F1EC97E3100202027 /* VideosModel.m */,
+				6442FA401EC97E3100202027 /* VideosPlayerViewController.h */,
+				6442FA411EC97E3100202027 /* VideosPlayerViewController.m */,
+			);
+			path = GreatVideo;
+			sourceTree = "<group>";
+		};
+		6442FA351EC97E3100202027 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA361EC97E3100202027 /* XSMediaPlayer.h */,
+				6442FA371EC97E3100202027 /* XSMediaPlayer.m */,
+				6442FA381EC97E3100202027 /* XSMediaPlayerMaskView.h */,
+				6442FA391EC97E3100202027 /* XSMediaPlayerMaskView.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		6442FA421EC97E3100202027 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA431EC97E3100202027 /* MovieFirstViewController.h */,
+				6442FA441EC97E3100202027 /* MovieFirstViewController.m */,
+				6442FA451EC97E3100202027 /* MovieFourViewController.h */,
+				6442FA461EC97E3100202027 /* MovieFourViewController.m */,
+				6442FA471EC97E3100202027 /* MovieSecondViewController.h */,
+				6442FA481EC97E3100202027 /* MovieSecondViewController.m */,
+				6442FA491EC97E3100202027 /* MovieThirViewController.h */,
+				6442FA4A1EC97E3100202027 /* MovieThirViewController.m */,
+				6442FA4B1EC97E3100202027 /* MovieViewController.h */,
+				6442FA4C1EC97E3100202027 /* MovieViewController.m */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		6442FA4D1EC97E3100202027 /* TV */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA4E1EC97E3100202027 /* TVFirstViewController.h */,
+				6442FA4F1EC97E3100202027 /* TVFirstViewController.m */,
+				6442FA501EC97E3100202027 /* TVFourViewController.h */,
+				6442FA511EC97E3100202027 /* TVFourViewController.m */,
+				6442FA521EC97E3100202027 /* TVSecondViewController.h */,
+				6442FA531EC97E3100202027 /* TVSecondViewController.m */,
+				6442FA541EC97E3100202027 /* TVThirdViewController.h */,
+				6442FA551EC97E3100202027 /* TVThirdViewController.m */,
+				6442FA561EC97E3100202027 /* TVViewController.h */,
+				6442FA571EC97E3100202027 /* TVViewController.m */,
+				6442FA581EC97E3100202027 /* VideosDetailViewController.h */,
+				6442FA591EC97E3100202027 /* VideosDetailViewController.m */,
+			);
+			path = TV;
+			sourceTree = "<group>";
+		};
+		6442FA5A1EC97E3100202027 /* MovieOtherController */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA5B1EC97E3100202027 /* MovieBaseViewController.h */,
+				6442FA5C1EC97E3100202027 /* MovieBaseViewController.m */,
+				6442FA5D1EC97E3100202027 /* MovieNagationViewController.h */,
+				6442FA5E1EC97E3100202027 /* MovieNagationViewController.m */,
+				6442FA5F1EC97E3100202027 /* MovieTabBarViewController.h */,
+				6442FA601EC97E3100202027 /* MovieTabBarViewController.m */,
+			);
+			path = MovieOtherController;
+			sourceTree = "<group>";
+		};
+		6442FA611EC97E3100202027 /* MovieTool */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA621EC97E3100202027 /* AFNetworkingManager.h */,
+				6442FA631EC97E3100202027 /* AFNetworkingManager.m */,
+				6442FA641EC97E3100202027 /* BaoHistoryManger.h */,
+				6442FA651EC97E3100202027 /* BaoHistoryManger.m */,
+				6442FA661EC97E3100202027 /* Foundation+Log.m */,
+				6442FA671EC97E3100202027 /* PlayerTool.h */,
+				6442FA681EC97E3100202027 /* PlayerTool.m */,
+			);
+			path = MovieTool;
+			sourceTree = "<group>";
+		};
+		6442FA691EC97E3100202027 /* MySetting */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA6A1EC97E3100202027 /* Controllers */,
+				6442FA731EC97E3100202027 /* Model */,
+				6442FA781EC97E3100202027 /* SettingTool */,
+				6442FA801EC97E3100202027 /* View */,
+			);
+			path = MySetting;
+			sourceTree = "<group>";
+		};
+		6442FA6A1EC97E3100202027 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA6B1EC97E3100202027 /* AppDownLoadVC.h */,
+				6442FA6C1EC97E3100202027 /* AppDownLoadVC.m */,
+				6442FA6D1EC97E3100202027 /* CollectViewController.h */,
+				6442FA6E1EC97E3100202027 /* CollectViewController.m */,
+				6442FA6F1EC97E3100202027 /* MySettingViewController.h */,
+				6442FA701EC97E3100202027 /* MySettingViewController.m */,
+				6442FA711EC97E3100202027 /* SuggestionsViewController.h */,
+				6442FA721EC97E3100202027 /* SuggestionsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6442FA731EC97E3100202027 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA741EC97E3100202027 /* XBSettingItemModel.h */,
+				6442FA751EC97E3100202027 /* XBSettingItemModel.m */,
+				6442FA761EC97E3100202027 /* XBSettingSectionModel.h */,
+				6442FA771EC97E3100202027 /* XBSettingSectionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6442FA781EC97E3100202027 /* SettingTool */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA791EC97E3100202027 /* EPProgressShow.h */,
+				6442FA7A1EC97E3100202027 /* EPProgressShow.m */,
+				6442FA7B1EC97E3100202027 /* MySetting.h */,
+				6442FA7C1EC97E3100202027 /* PDKeyChain.h */,
+				6442FA7D1EC97E3100202027 /* PDKeyChain.m */,
+				6442FA7E1EC97E3100202027 /* UIView+XBExtension.h */,
+				6442FA7F1EC97E3100202027 /* UIView+XBExtension.m */,
+			);
+			path = SettingTool;
+			sourceTree = "<group>";
+		};
+		6442FA801EC97E3100202027 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA811EC97E3100202027 /* XBSettingCell.h */,
+				6442FA821EC97E3100202027 /* XBSettingCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6442FA831EC97E3100202027 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA841EC97E3100202027 /* PYSearch */,
+				6442FA8F1EC97E3100202027 /* SearchCollectionViewCell.h */,
+				6442FA901EC97E3100202027 /* SearchCollectionViewCell.m */,
+				6442FA911EC97E3100202027 /* SearchModel.h */,
+				6442FA921EC97E3100202027 /* SearchModel.m */,
+				6442FA931EC97E3100202027 /* SearchViewController.h */,
+				6442FA941EC97E3100202027 /* SearchViewController.m */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		6442FA841EC97E3100202027 /* PYSearch */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA851EC97E3100202027 /* PYSearch.bundle */,
+				6442FA861EC97E3100202027 /* PYSearch.h */,
+				6442FA871EC97E3100202027 /* PYSearchConst.h */,
+				6442FA881EC97E3100202027 /* PYSearchConst.m */,
+				6442FA891EC97E3100202027 /* PYSearchViewController.h */,
+				6442FA8A1EC97E3100202027 /* PYSearchViewController.m */,
+				6442FA8B1EC97E3100202027 /* UIColor+PYSearchExtension.h */,
+				6442FA8C1EC97E3100202027 /* UIColor+PYSearchExtension.m */,
+				6442FA8D1EC97E3100202027 /* UIView+PYSearchExtension.h */,
+				6442FA8E1EC97E3100202027 /* UIView+PYSearchExtension.m */,
+			);
+			path = PYSearch;
+			sourceTree = "<group>";
+		};
+		A805F6261B55126300ACE37C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A805F6301B552C4800ACE37C /* TMWifiCell.h */,
+				A805F6311B552C4800ACE37C /* TMWifiCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A805F6331B55F2FC00ACE37C /* wifiScan */ = {
+			isa = PBXGroup;
+			children = (
+				A805F6401B55F6D000ACE37C /* SimplePing.h */,
+				A805F6411B55F6D000ACE37C /* SimplePing.m */,
+				A805F6461B55F77400ACE37C /* if_arp.h */,
+				A805F6471B55F77400ACE37C /* if_ether.h */,
+				A805F6481B55F77400ACE37C /* if_types.h */,
+				A805F6491B55F77400ACE37C /* route.h */,
+				A805F6421B55F6D000ACE37C /* SimplePingHelper.h */,
+				A805F6431B55F6D000ACE37C /* SimplePingHelper.m */,
+				A805F6361B55F31800ACE37C /* IPDetector.h */,
+				A805F6371B55F31800ACE37C /* IPDetector.m */,
+				A805F6381B55F31800ACE37C /* ScanLAN.h */,
+				A805F6391B55F31800ACE37C /* ScanLAN.m */,
+				A805F63A1B55F31800ACE37C /* Utils.h */,
+				A805F63B1B55F31800ACE37C /* Utils.m */,
+			);
+			name = wifiScan;
+			sourceTree = "<group>";
+		};
+		A8BF506F1B53FBC40070678E = {
+			isa = PBXGroup;
+			children = (
+				6442FA151EC97E3100202027 /* MovieVideo */,
+				A8BF507A1B53FBC40070678E /* gelaisi */,
+				A8BF50941B53FBC50070678E /* gelaisiTests */,
+				A8BF51671B54B05E0070678E /* Frameworks */,
+				A8BF50791B53FBC40070678E /* Products */,
+				55051802F27FDE41C90C8890 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A8BF50791B53FBC40070678E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF50781B53FBC40070678E /* gelaisi.app */,
+				A8BF50911B53FBC50070678E /* gelaisiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BF507A1B53FBC40070678E /* gelaisi */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF507F1B53FBC40070678E /* AppDelegate.h */,
+				A8BF50801B53FBC40070678E /* AppDelegate.m */,
+				A8BF51681B54B1530070678E /* Controller */,
+				A8BF514E1B54035C0070678E /* Vender */,
+				A8BF50A11B5401C90070678E /* Thirdlib */,
+				A8BF50881B53FBC40070678E /* Images.xcassets */,
+				A8BF507B1B53FBC40070678E /* Supporting Files */,
+			);
+			path = gelaisi;
+			sourceTree = "<group>";
+		};
+		A8BF507B1B53FBC40070678E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF51561B54050F0070678E /* PrefixHeader.pch */,
+				6442FAC81EC97E4400202027 /* Api.h */,
+				A8BF507C1B53FBC40070678E /* Info.plist */,
+				A8BF507D1B53FBC40070678E /* main.m */,
+				6442FAD11EC990FF00202027 /* Launch Screen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8BF50941B53FBC50070678E /* gelaisiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF50971B53FBC50070678E /* gelaisiTests.m */,
+				A8BF50951B53FBC50070678E /* Supporting Files */,
+			);
+			path = gelaisiTests;
+			sourceTree = "<group>";
+		};
+		A8BF50951B53FBC50070678E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF50961B53FBC50070678E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8BF50A11B5401C90070678E /* Thirdlib */ = {
+			isa = PBXGroup;
+			children = (
+				6442F9FC1EC976F200202027 /* YUFoldingTableView */,
+				6442FA021EC976F200202027 /* QBDeviceInfo.h */,
+				6442FA031EC976F200202027 /* QBDeviceInfo.m */,
+				6442FA041EC976F200202027 /* QBReachability.h */,
+				6442FA051EC976F200202027 /* QBReachability.m */,
+				A8BF50A21B5401E10070678E /* FVCustomAlertView */,
+				A8BF50B31B5401E10070678E /* PureLayout */,
+			);
+			name = Thirdlib;
+			sourceTree = "<group>";
+		};
+		A8BF50A21B5401E10070678E /* FVCustomAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF50A31B5401E10070678E /* FVCustomAlertView-Prefix.pch */,
+				A8BF50A41B5401E10070678E /* FVCustomAlertView.h */,
+				A8BF50A51B5401E10070678E /* FVCustomAlertView.m */,
+				A8BF50A61B5401E10070678E /* IMGActivityIndicator.h */,
+				A8BF50A71B5401E10070678E /* IMGActivityIndicator.m */,
+				A8BF50A81B5401E10070678E /* UNAlertView.h */,
+				A8BF50A91B5401E10070678E /* UNAlertView.m */,
+			);
+			path = FVCustomAlertView;
+			sourceTree = "<group>";
+		};
+		A8BF50B31B5401E10070678E /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF50B41B5401E10070678E /* LICENSE */,
+				A8BF50B51B5401E10070678E /* PureLayout */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		A8BF50B51B5401E10070678E /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF50B61B5401E10070678E /* PureLayout */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		A8BF50B61B5401E10070678E /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF50B71B5401E10070678E /* ALView+PureLayout.h */,
+				A8BF50B81B5401E10070678E /* ALView+PureLayout.m */,
+				A8BF50B91B5401E10070678E /* NSArray+PureLayout.h */,
+				A8BF50BA1B5401E10070678E /* NSArray+PureLayout.m */,
+				A8BF50BB1B5401E10070678E /* NSLayoutConstraint+PureLayout.h */,
+				A8BF50BC1B5401E10070678E /* NSLayoutConstraint+PureLayout.m */,
+				A8BF50BD1B5401E10070678E /* PureLayout+Internal.h */,
+				A8BF50BE1B5401E10070678E /* PureLayout.h */,
+				A8BF50BF1B5401E10070678E /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		A8BF514E1B54035C0070678E /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				A805F6331B55F2FC00ACE37C /* wifiScan */,
+				A8BF514F1B5404050070678E /* Macro.h */,
+				A8BF51501B5404050070678E /* UtilToolkit.h */,
+				A8BF51511B5404050070678E /* UtilToolkit.m */,
+			);
+			name = Vender;
+			sourceTree = "<group>";
+		};
+		A8BF51671B54B05E0070678E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6442FA131EC9787B00202027 /* libresolv.tbd */,
+				6442FA111EC9787000202027 /* AudioToolbox.framework */,
+				6442FA0F1EC9785D00202027 /* AVFoundation.framework */,
+				6442FA0D1EC9785100202027 /* CoreMotion.framework */,
+				6442FA0B1EC9781500202027 /* CoreFoundation.framework */,
+				A805023B1B56C86A00ACE37C /* Foundation.framework */,
+				A8BF51651B5407140070678E /* CFNetwork.framework */,
+				A8BF51631B54070C0070678E /* Security.framework */,
+				A8BF51611B5407050070678E /* SystemConfiguration.framework */,
+				A8BF515F1B5406FA0070678E /* libstdc++.dylib */,
+				A8BF515D1B5406E30070678E /* libz.dylib */,
+				A8BF515B1B5406AC0070678E /* libsqlite3.dylib */,
+				EA8ACD83E86397F46843A474 /* libPods-gelaisi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8BF51681B54B1530070678E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF517F1B54B8BF0070678E /* Home */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A8BF517F1B54B8BF0070678E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6442F9EF1EC971FA00202027 /* WIFI信息 */,
+				6442F9E51EC971C300202027 /* OtherViewController */,
+				A805F62D1B552A8000ACE37C /* TMSearchController.h */,
+				A805F62E1B552A8000ACE37C /* TMSearchController.m */,
+				A805F6261B55126300ACE37C /* View */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8BF50771B53FBC40070678E /* gelaisi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BF509B1B53FBC50070678E /* Build configuration list for PBXNativeTarget "gelaisi" */;
+			buildPhases = (
+				D0EE70DD6D0BD7CC359657B7 /* [CP] Check Pods Manifest.lock */,
+				A8BF50741B53FBC40070678E /* Sources */,
+				A8BF50751B53FBC40070678E /* Frameworks */,
+				A8BF50761B53FBC40070678E /* Resources */,
+				7F94A9D2DCFD4E9978A290D7 /* [CP] Embed Pods Frameworks */,
+				4432497E5CD9B5925469C72A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gelaisi;
+			productName = gelaisi;
+			productReference = A8BF50781B53FBC40070678E /* gelaisi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8BF50901B53FBC50070678E /* gelaisiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BF509E1B53FBC50070678E /* Build configuration list for PBXNativeTarget "gelaisiTests" */;
+			buildPhases = (
+				A8BF508D1B53FBC50070678E /* Sources */,
+				A8BF508E1B53FBC50070678E /* Frameworks */,
+				A8BF508F1B53FBC50070678E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8BF50931B53FBC50070678E /* PBXTargetDependency */,
+			);
+			name = gelaisiTests;
+			productName = gelaisiTests;
+			productReference = A8BF50911B53FBC50070678E /* gelaisiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8BF50701B53FBC40070678E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shen;
+				TargetAttributes = {
+					A8BF50771B53FBC40070678E = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = X75R9556F3;
+					};
+					A8BF50901B53FBC50070678E = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = X75R9556F3;
+						TestTargetID = A8BF50771B53FBC40070678E;
+					};
+				};
+			};
+			buildConfigurationList = A8BF50731B53FBC40070678E /* Build configuration list for PBXProject "gelaisi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = A8BF506F1B53FBC40070678E;
+			productRefGroup = A8BF50791B53FBC40070678E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8BF50771B53FBC40070678E /* gelaisi */,
+				A8BF50901B53FBC50070678E /* gelaisiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BF50761B53FBC40070678E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6442FAD21EC990FF00202027 /* Launch Screen.storyboard in Resources */,
+				A8BF50891B53FBC40070678E /* Images.xcassets in Resources */,
+				A8BF51241B5401E10070678E /* LICENSE in Resources */,
+				6442FAC01EC97E3100202027 /* PYSearch.bundle in Resources */,
+				6442FA061EC976F200202027 /* Arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BF508F1B53FBC50070678E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4432497E5CD9B5925469C72A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gelaisi/Pods-gelaisi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F94A9D2DCFD4E9978A290D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gelaisi/Pods-gelaisi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0EE70DD6D0BD7CC359657B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8BF50741B53FBC40070678E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6442FAAA1EC97E3100202027 /* TVFourViewController.m in Sources */,
+				6442FAA31EC97E3100202027 /* VideosPlayerViewController.m in Sources */,
+				6442FAA01EC97E3100202027 /* SecondViewController.m in Sources */,
+				6442F9EC1EC971D500202027 /* WIFIBaseViewController.m in Sources */,
+				6442FAB11EC97E3100202027 /* MovieTabBarViewController.m in Sources */,
+				A805F63F1B55F31800ACE37C /* Utils.m in Sources */,
+				6442FA991EC97E3100202027 /* GGActionSheet.m in Sources */,
+				A8BF511D1B5401E10070678E /* FVCustomAlertView.m in Sources */,
+				6442FAC11EC97E3100202027 /* PYSearchConst.m in Sources */,
+				6442FA981EC97E3100202027 /* CKAlertViewController.m in Sources */,
+				A805F63E1B55F31800ACE37C /* ScanLAN.m in Sources */,
+				6442F9F51EC9723600202027 /* WIFILocalMsgVC.m in Sources */,
+				A8BF511F1B5401E10070678E /* UNAlertView.m in Sources */,
+				6442FAB31EC97E3100202027 /* BaoHistoryManger.m in Sources */,
+				6442FAC71EC97E3100202027 /* SearchViewController.m in Sources */,
+				6442FAB91EC97E3100202027 /* SuggestionsViewController.m in Sources */,
+				6442FA071EC976F200202027 /* YUFoldingSectionHeader.m in Sources */,
+				6442FAB61EC97E3100202027 /* AppDownLoadVC.m in Sources */,
+				6442FAC41EC97E3100202027 /* UIView+PYSearchExtension.m in Sources */,
+				6442FAC51EC97E3100202027 /* SearchCollectionViewCell.m in Sources */,
+				6442FAA81EC97E3100202027 /* MovieViewController.m in Sources */,
+				6442FAB41EC97E3100202027 /* Foundation+Log.m in Sources */,
+				6442FAAE1EC97E3100202027 /* VideosDetailViewController.m in Sources */,
+				6442FAA61EC97E3100202027 /* MovieSecondViewController.m in Sources */,
+				6442FAB81EC97E3100202027 /* MySettingViewController.m in Sources */,
+				A805F6451B55F6D000ACE37C /* SimplePingHelper.m in Sources */,
+				6442FA9C1EC97E3100202027 /* FourViewController.m in Sources */,
+				A805F6441B55F6D000ACE37C /* SimplePing.m in Sources */,
+				6442FA091EC976F200202027 /* QBDeviceInfo.m in Sources */,
+				A8BF51271B5401E10070678E /* NSLayoutConstraint+PureLayout.m in Sources */,
+				6442FAB01EC97E3100202027 /* MovieNagationViewController.m in Sources */,
+				6442FA0A1EC976F200202027 /* QBReachability.m in Sources */,
+				6442F9FB1EC9727200202027 /* UIImage+Extension.m in Sources */,
+				6442FA9F1EC97E3100202027 /* XSMediaPlayerMaskView.m in Sources */,
+				6442FABF1EC97E3100202027 /* XBSettingCell.m in Sources */,
+				6442FA9E1EC97E3100202027 /* XSMediaPlayer.m in Sources */,
+				6442FAA51EC97E3100202027 /* MovieFourViewController.m in Sources */,
+				6442FAA11EC97E3100202027 /* ThirdViewController.m in Sources */,
+				6442FA081EC976F200202027 /* YUFoldingTableView.m in Sources */,
+				A805F62F1B552A8000ACE37C /* TMSearchController.m in Sources */,
+				6442FAAD1EC97E3100202027 /* TVViewController.m in Sources */,
+				A8BF51261B5401E10070678E /* NSArray+PureLayout.m in Sources */,
+				6442FA961EC97E3100202027 /* UIView+MJ.m in Sources */,
+				6442F9ED1EC971D500202027 /* WIFINavigationVC.m in Sources */,
+				6442FA9A1EC97E3100202027 /* LSSAlertView.m in Sources */,
+				6442FAA91EC97E3100202027 /* TVFirstViewController.m in Sources */,
+				6442FAAF1EC97E3100202027 /* MovieBaseViewController.m in Sources */,
+				A8BF51541B5404050070678E /* UtilToolkit.m in Sources */,
+				6442FABD1EC97E3100202027 /* PDKeyChain.m in Sources */,
+				6442FAA71EC97E3100202027 /* MovieThirViewController.m in Sources */,
+				A805F63D1B55F31800ACE37C /* IPDetector.m in Sources */,
+				6442FA9B1EC97E3100202027 /* FirstVideosViewController.m in Sources */,
+				6442FA9D1EC97E3100202027 /* GreatVideoViewController.m in Sources */,
+				6442FABE1EC97E3100202027 /* UIView+XBExtension.m in Sources */,
+				6442FABB1EC97E3100202027 /* XBSettingSectionModel.m in Sources */,
+				6442F9EE1EC971D500202027 /* WIFITabBarVC.m in Sources */,
+				6442FAC61EC97E3100202027 /* SearchModel.m in Sources */,
+				6442FAAC1EC97E3100202027 /* TVThirdViewController.m in Sources */,
+				6442FAA21EC97E3100202027 /* VideosModel.m in Sources */,
+				A805F6321B552C4800ACE37C /* TMWifiCell.m in Sources */,
+				6442FAC31EC97E3100202027 /* UIColor+PYSearchExtension.m in Sources */,
+				6442FA951EC97E3100202027 /* UIImage+Extension.m in Sources */,
+				6442FAB51EC97E3100202027 /* PlayerTool.m in Sources */,
+				6442FABC1EC97E3100202027 /* EPProgressShow.m in Sources */,
+				6442FABA1EC97E3100202027 /* XBSettingItemModel.m in Sources */,
+				6442FAC21EC97E3100202027 /* PYSearchViewController.m in Sources */,
+				A8BF51251B5401E10070678E /* ALView+PureLayout.m in Sources */,
+				6442FAB71EC97E3100202027 /* CollectViewController.m in Sources */,
+				6442FAAB1EC97E3100202027 /* TVSecondViewController.m in Sources */,
+				6442FAA41EC97E3100202027 /* MovieFirstViewController.m in Sources */,
+				6442FAB21EC97E3100202027 /* AFNetworkingManager.m in Sources */,
+				A8BF50811B53FBC40070678E /* AppDelegate.m in Sources */,
+				A8BF511E1B5401E10070678E /* IMGActivityIndicator.m in Sources */,
+				A8BF507E1B53FBC40070678E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BF508D1B53FBC50070678E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BF50981B53FBC50070678E /* gelaisiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8BF50931B53FBC50070678E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8BF50771B53FBC40070678E /* gelaisi */;
+			targetProxy = A8BF50921B53FBC50070678E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A8BF50991B53FBC50070678E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8BF509A1B53FBC50070678E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8BF509C1B53FBC50070678E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1D6C3A5E5B3058AB5116E9 /* Pods-gelaisi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: peng zhi yang (X75R9556F3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X75R9556F3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gelaisi/UMSocial_Sdk_4.2.3/TencentOpenAPI",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = gelaisi/PrefixHeader.pch;
+				INFOPLIST_FILE = gelaisi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gelaisi/UMClick",
+					"$(PROJECT_DIR)/gelaisi/UMSocial_Sdk_4.2.3",
+					"$(PROJECT_DIR)/gelaisi/UMSocial_Sdk_4.2.3/Sina",
+					"$(PROJECT_DIR)/gelaisi/UMSocial_Sdk_4.2.3/SinaSSO",
+					"$(PROJECT_DIR)/gelaisi/UMSocial_Sdk_4.2.3/TencentOpenAPI",
+					"$(PROJECT_DIR)/gelaisi/UMSocial_Sdk_4.2.3/Wechat",
+					"$(PROJECT_DIR)/MovieVideo/GDTSDK/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobszbb.WiFiCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8BF509D1B53FBC50070678E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECC84E8ECE7FC85CB8B28915 /* Pods-gelaisi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: peng zhi yang (X75R9556F3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X75R9556F3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gelaisi/UMSocial_Sdk_4.2.3/TencentOpenAPI",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = gelaisi/PrefixHeader.pch;
+				INFOPLIST_FILE = gelaisi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gelaisi/UMClick",
+					"$(PROJECT_DIR)/gelaisi/UMSocial_Sdk_4.2.3",
+					"$(PROJECT_DIR)/gelaisi/UMSocial_Sdk_4.2.3/Sina",
+					"$(PROJECT_DIR)/gelaisi/UMSocial_Sdk_4.2.3/SinaSSO",
+					"$(PROJECT_DIR)/gelaisi/UMSocial_Sdk_4.2.3/TencentOpenAPI",
+					"$(PROJECT_DIR)/gelaisi/UMSocial_Sdk_4.2.3/Wechat",
+					"$(PROJECT_DIR)/MovieVideo/GDTSDK/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobszbb.WiFiCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8BF509F1B53FBC50070678E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X75R9556F3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gelaisiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gelaisi.hotwater.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gelaisi.app/gelaisi";
+			};
+			name = Debug;
+		};
+		A8BF50A01B53FBC50070678E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X75R9556F3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gelaisiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gelaisi.hotwater.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gelaisi.app/gelaisi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8BF50731B53FBC40070678E /* Build configuration list for PBXProject "gelaisi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BF50991B53FBC50070678E /* Debug */,
+				A8BF509A1B53FBC50070678E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BF509B1B53FBC50070678E /* Build configuration list for PBXNativeTarget "gelaisi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BF509C1B53FBC50070678E /* Debug */,
+				A8BF509D1B53FBC50070678E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BF509E1B53FBC50070678E /* Build configuration list for PBXNativeTarget "gelaisiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BF509F1B53FBC50070678E /* Debug */,
+				A8BF50A01B53FBC50070678E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8BF50701B53FBC40070678E /* Project object */;
+}

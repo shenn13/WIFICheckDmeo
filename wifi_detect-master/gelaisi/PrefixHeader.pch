@@ -1,0 +1,69 @@
+//
+//  PrefixHeader.pch
+//  Jingtemai3
+//
+//  Created by linxiaolong on 15/5/26.
+//  Copyright (c) 2015年 linxiaolong. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+#ifdef __OBJC__
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "UtilToolkit.h"
+#import "Macro.h"
+#import "PureLayout.h"
+
+
+#ifdef __OBJC__
+#ifndef __OPTIMIZE__
+#define NSLog(...) printf("DEBUG LOG:%s\n",[[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#endif
+#endif
+
+//屏幕的宽和高
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define kMainScreenColor [UIColor colorWithRed:180.0/255 green:197.0/255 blue:110.0/255 alpha:1]
+
+#define ViewBackgroundColor [UIColor colorWithRed:240.0/255 green:240.0/255 blue:240.0/255 alpha:1];
+
+#define IntervalColor [UIColor colorWithRed:240.0/255 green:240.0/255 blue:240.0/255 alpha:1]
+
+//选集按钮未选中颜色
+#define selectButtonColor [UIColor colorWithRed:240.0/255 green:240.0/255 blue:240.0/255 alpha:1]
+//选集选中颜色
+#define selectionsBtnColor [UIColor colorWithRed:0/255.0 green:181/255.0 blue:255/255.0 alpha:1]
+
+#define COLOR(R,G,B,A) [UIColor colorWithRed:(R)/255.0 green:(G)/255.0 blue:(B)/255.0 alpha:A]
+
+
+//AdMob APPID 原生广告ID 插屏广告ID  所有APP固定 三个ID
+#define AdMob_APP_ID @"ca-app-pub-4903381575382292~1388993566"
+#define AdMob_NativeExpressAdUnitID @"ca-app-pub-4903381575382292/4345741960"
+#define AdMob_CID @"ca-app-pub-4903381575382292/7073770369"
+#define AdMob_BannerViewAdUnitID @"ca-app-pub-4903381575382292/2865726763"
+
+#define GDT_APP_ID @"1106007935"//REP_FLG_GDTID
+#define GDT_APP_KID @"1060923127619057"//REP_FLG_KID
+#define GDT_APP_CID @"1030328157612006"//REP_FLG_CID
+
+//友盟统计
+#define UM_APP_KEY @"570c85fb67e58e5b40000761"
+#define UnityAds_APP @"1320670"
+
+#import "PDKeyChain.h"
+#import "MySetting.h"
+
+#import "Api.h"
+
+
+#endif

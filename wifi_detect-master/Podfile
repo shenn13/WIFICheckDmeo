@@ -1,0 +1,22 @@
+platform :ios, '7.0' 
+
+target 'gelaisi' do
+pod 'SDWebImage'
+pod 'AFNetworking'
+pod 'MJRefresh'
+pod 'SVProgressHUD'
+pod 'JSONModel'
+pod 'Masonry'
+pod 'FMDB'
+pod 'Google-Mobile-Ads-SDK'
+pod 'UMengAnalytics'
+pod 'XHVersion'
+
+pod 'UnityAds'
+pod 'ShareSDK3'
+pod 'MOBFoundation'
+pod 'ShareSDK3/ShareSDKPlatforms/QQ'
+pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
+pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
+
+end
